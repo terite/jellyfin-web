@@ -6,9 +6,9 @@ const Loading: FunctionComponent = () => {
     useEffect(() => {
         loading.show();
 
-        return () => {
-            loading.hide();
-        };
+        // return () => {
+        //     loading.hide();
+        // };
     }, []);
 
     return null;
